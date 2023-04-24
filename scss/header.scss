@@ -1,0 +1,130 @@
+
+.header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 50;
+}
+
+.header:before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: #F5F5F5;
+   z-index: 3;
+}
+
+.nav__bar {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   align-items: center;
+}
+
+.nav__logo {
+   margin-right: 200px;
+   text-decoration: none;
+   color:#fff;
+   font-size: 50px;
+   overflow: hidden;
+   position: relative;
+   z-index: 30;
+}
+
+
+.nav__list {
+   display: flex;
+   position: relative;
+   z-index: 3;
+}
+
+.nav__list li{
+   list-style: none;
+   margin-left: 40px;
+}
+.nav__list li:first-child{
+  margin-left: 0;
+}
+
+.nav__link-a{
+   color: #8E8E8E;
+   font-size: 18px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 26px;
+   letter-spacing: 0.5px;
+   color: #8E8E8E;
+}
+.nav__link:before{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 0.5em;
+   height: 0.5em;
+   border-radius: 50%;
+   background-color: #69B99D;
+   transform: translateX(-50%);
+   opacity: 0;
+   transition: opasity 0.2s ease-out, transform 0.2s ease-out;
+   
+}
+.nav__link:hover::before{
+   opacity: 1;
+   transform: translate(-50%, 100%);
+}
+.nav__link-a:hover{
+   color: #69B99D;
+}
+.nav__link:hover{
+   transform: translateY(-0.1em);
+}
+.nav__button {
+   display: flex;
+
+z-index: 100;
+
+}
+.nav__button-sign {
+   margin-right: 8px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.0025em;
+   color: #69B99D;
+   padding: 15px 48px;
+}
+.nav__button-sign:hover {
+   transition: all .3s ease;
+   border:solid 1px #69B99D;
+   color: #69B99D;
+   padding: 15px 47px;
+
+}
+.nav__button-login {
+   background: #69B99D;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.0025em;
+   color: #FFFFFF;
+   padding: 15px 48px;
+}
+.nav__button-login:hover {
+   transition: all .3s ease;
+   color: #69B99D;
+   border:solid 1px #69B99D;
+   background-color: #fff;
+   padding: 15px 47px;
+}

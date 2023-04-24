@@ -1,0 +1,138 @@
+.real__estate {
+  padding-top: 120px;
+  background: #F5F5F5;
+  height: 100vh;
+}
+
+.header__background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+}
+
+.real__estate-box {
+  max-width: 600px;
+}
+
+.real__estate-title {
+  margin-bottom: 40px;
+  display: inline-block;
+  padding: 12px 24px;
+  background: #F8F9FE;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #69B99D;
+}
+
+.real__estate-subtitle {
+  padding-bottom: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.0025em;
+  color: #1F2744;
+}
+
+.real__estate-description {
+  margin-bottom: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.0025em;
+  color: #73788C;
+}
+
+.dropdown__button {
+  padding: 12px 32px;
+  background: #F5F5F5;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.0025em;
+  color: #A6A6A6;
+}
+.dropdown__button:hover {
+  transition: all 0.3s ease;
+  background: #FEFEFF;
+  color: #69B99D;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  display: flex;
+}
+
+.dropdown-content {
+  padding: 32px;
+  height: 125px;
+  width: 750px;
+  background: #fff;
+  box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+}
+
+.dropdown__column {
+  margin-right: 40px;
+}
+
+.dropdown__column-title {
+  margin-left: 3px;
+  margin-bottom: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.0025em;
+  color: #1F2744;
+}
+
+.location, .price, .type {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.0025em;
+  color: #A6A6A6;
+}
+
+.dropdown-btn {
+  background: #69B99D;
+  box-shadow: 0px 0px 65px rgba(105, 185, 157, 0.32);
+  padding: 18px 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.0025em;
+  color: #FFFFFF;
+}
+.dropdown-btn:hover {
+  transition: all 0.3s ease;
+  background: none;
+  color: #69B99D;
+  border: solid 1px #69B99D;
+}

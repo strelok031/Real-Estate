@@ -1,0 +1,67 @@
+.advante {
+  padding-top: 80px;
+  background: #F5F5F5;
+}
+
+.advante__title {
+  display: inline-block;
+  margin-bottom: 28px;
+  padding: 12px 24px;
+  background: #F8F9FE;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #69B99D;
+}
+
+.advante__subtitle {
+  margin-bottom: 48px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.5px;
+  color: #054457;
+}
+
+.advante__cards {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.advante__card {
+  max-width: 376px;
+  height: 268px;
+  padding: 20px;
+}
+
+.advante__card-icon {
+  margin-bottom: 16px;
+}
+
+.advante__card-title {
+  margin-bottom: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.5px;
+  color: #054457;
+}
+
+.advante__card-discription {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #73788C;
+}

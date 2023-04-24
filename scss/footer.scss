@@ -1,0 +1,106 @@
+.footer {
+   margin-top: 120px;
+   padding: 75px 0;
+   background: #F5F5F5;
+}
+
+.footer__columns {
+   display: flex;
+   justify-content: space-between;
+}
+.footer__column {
+   max-width: 360px;
+}
+.footer__logo {
+   margin-bottom: 17px;
+}
+.footer__description {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   letter-spacing: 0.0025em;
+   color: #1F2744;
+   margin-bottom: 23px;
+}
+.footer__form-title {
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 28px;
+   color: #0B2E29;
+   margin-bottom: 16px;
+}
+form{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+label, input, button {
+   margin: 0;
+   padding: 0;
+   border: none;
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+input{
+   width: 100%;
+   padding: 9px;
+}
+::placeholder{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   letter-spacing: 0.5px;
+   color: #D7D7D7;
+}
+.footer__button{
+   padding: 8px 20px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   letter-spacing: 0.5px;
+   color: #FEFEFF;
+   background: #69B99D;
+   box-shadow: 0px 0px 65px rgba(105, 185, 157, 0.48);
+   cursor: pointer;
+   &:hover{
+      transition: all .3s ease;
+      color: #69B99D;
+      background: none;
+      border: solid 1px #69B99D;
+   }
+}
+.footer__column-title {
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 28px;
+   margin-bottom: 16px;
+}
+.footer__link {
+   display: block;
+   margin-bottom: 16px;
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #575757;
+   &:hover{
+      transition: all .3s ease;
+      color: rgb(31, 33, 40);
+   }
+}
+
+.footer__icon {
+   margin-right: 16px;
+}
